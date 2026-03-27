@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 from db_utils import run_mysql_query, run_mongo_query
 
-# --- UI ---
+# UI
 st.title("DSCI551 Final Project - ChatDB")
 
 db_type = st.selectbox("Choose a database type", ["MySQL", "MongoDB"])
