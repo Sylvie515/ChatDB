@@ -3,7 +3,7 @@ import pymysql
 from pymongo import MongoClient
 from pymongo.cursor import Cursor
 
-# --- MySQL Query Execution ---
+# MySQL Query Execution
 def run_mysql_query(query, db_name):
     try:
         connection = pymysql.connect(
@@ -25,7 +25,7 @@ def run_mysql_query(query, db_name):
     except Exception as e:
         return pd.DataFrame([{"error": str(e)}])
 
-# --- MongoDB Query Execution ---
+# MongoDB Query Execution
 def run_mongo_query(query_string, dataset):
     try:
         client = MongoClient("mongodb://your-ec2-ip/")  # enter your ec2 ip
