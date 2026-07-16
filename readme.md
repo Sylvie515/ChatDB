@@ -7,8 +7,6 @@
 ChatDB is an interactive web-based application that enables users to interact with relational (MySQL) and non-relational (MongoDB) databases using natural language queries.
 Built with Streamlit and powered by OpenAI's GPT API, ChatDB interprets user input and translates it into executable SQL or MongoDB commands.
 
-This project fulfills the requirements set by the [DSCI 551 Project Guideline (Spring 2025)](./551-sp25-project-guideline.pdf).
-
 Team Members:
 - Shih-Hui Huang
 - Yu-Chen Lu
