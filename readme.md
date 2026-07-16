@@ -1,7 +1,5 @@
 # ChatDB: Natural Language Interface to SQL and NoSQL Databases
 
-**Final Project for DSCI551 — Spring 2025**
-
 ---
 
 ## I. Project Overview
